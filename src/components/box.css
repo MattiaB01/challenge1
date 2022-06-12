@@ -1,0 +1,148 @@
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .blocco
+  {
+  
+    width: 400px;
+    height: 400px;
+    background-color: #222b40;
+    border-radius: 35px;
+    background-image: linear-gradient(#222b40,#0e111a);
+    position:absolute;
+    top:22%;
+    left:35%;
+  
+  }
+  
+  .circle{
+    width: 50px;
+    height: 50px;
+    background-color: #2e3a56;
+    position: relative;
+    top:35px;
+    left:35px;
+    border-radius: 100%;
+  }
+  .blocco h3{
+    position: relative;
+  font-weight: 400;
+  margin-left: 35px;
+  width: 350px;
+  font-size: 15px;
+  color:gainsboro;
+  
+  
+  }
+  
+  
+  .circle2{
+    width: 50px;
+    height: 50px;
+    background-color: #2e3a56;
+    position: relative;
+    top:10px;
+    left:35px;
+    border-radius: 100%;
+    display:inline-flex;
+    margin-right: 20px;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+   
+  }
+  
+  
+  .submit{
+    
+    margin-top: 30px;
+    margin-left:35px;
+    width: 325px;
+    height: 50px;
+    background-color:#FF9019;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:gainsboro;
+    border:1px solid black;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .submit:hover
+  {
+  background-color: aliceblue;
+  color: #FF9019;
+  }
+  
+  .circle2 p{
+    color:gainsboro;
+    margin-left: 20px;
+    margin-top:14px;
+    font-weight: 600;
+    background-color: aqua;
+    
+  }
+  
+  
+  
+  .circle2:hover{
+  background-color: grey;
+  
+  
+  }
+  .blocco h1{
+    font-size: 25px;
+    margin-left: 35px;
+    margin-top: 65px;
+    color:white;
+    font-weight:600;
+  }
+  
+  .circle img
+  {
+    position: absolute;
+    top: 16px;
+    left: 18px;
+  }
+  
+  
+  @media screen and (max-width: 455px) {
+    
+  .blocco{
+    left: 6%;
+  }
+  
+    }
+  
+  
+    @media only screen and (max-width: 410px) {
+    
+      .blocco{
+        left: 0px;
+      }
+      
+        }
